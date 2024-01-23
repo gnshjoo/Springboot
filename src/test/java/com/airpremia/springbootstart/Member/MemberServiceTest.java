@@ -1,11 +1,13 @@
 package com.airpremia.springbootstart.Member;
 
+import com.airpremia.springbootstart.AppConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImpl(); // 구현제 의존 ( 추상화, 구체화 동시에 의존 ) DIP 위반
+    AppConfig appConfig = new AppConfig();
+    MemberService memberService = appConfig.memberService();
 
     @Test
     void join() {
