@@ -1,6 +1,7 @@
 package com.airpremia.springbootstart.Member;
 
 public class Member {
+    public static Object Grade;
     private Long id;
     private String name;
     private Grade grade;
