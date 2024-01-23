@@ -3,6 +3,7 @@ package com.airpremia.springbootstart;
 
 import com.airpremia.springbootstart.Discount.DiscountPolicy;
 import com.airpremia.springbootstart.Discount.FixDiscountPolicy;
+import com.airpremia.springbootstart.Discount.RateDiscountPolicy;
 import com.airpremia.springbootstart.Member.MemberRepository;
 import com.airpremia.springbootstart.Member.MemberService;
 import com.airpremia.springbootstart.Member.MemberServiceImpl;
@@ -25,7 +26,8 @@ public class AppConfig {
     }
 
     public DiscountPolicy discountPolicy() {
-        return new FixDiscountPolicy();
+//        return new FixDiscountPolicy(); // 이것만 수정하면 DiscountPolicy 를 변경할 수 있음
+        return new RateDiscountPolicy();
     }
 
 }
