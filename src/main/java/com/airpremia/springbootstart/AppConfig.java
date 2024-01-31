@@ -16,6 +16,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
     // 실제 동작에 필요한 구현 객체 생성
+
+    // @Bean memberService -> new MemoryMemberRepository()
+    // @Bean orderService -> new MemoryMemberRepository()
     @Bean
     public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
