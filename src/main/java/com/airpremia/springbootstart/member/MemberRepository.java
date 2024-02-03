@@ -1,4 +1,4 @@
-package com.airpremia.springbootstart.Member;
+package com.airpremia.springbootstart.member;
 
 public interface MemberRepository {
 

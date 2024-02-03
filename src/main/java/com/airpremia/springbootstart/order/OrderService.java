@@ -1,4 +1,4 @@
-package com.airpremia.springbootstart.Order;
+package com.airpremia.springbootstart.order;
 
 public interface OrderService {
     Order createOrder(Long memberId, String itemName, int itemPrice);

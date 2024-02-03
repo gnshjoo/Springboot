@@ -1,8 +1,8 @@
 package com.airpremia.springbootstart.BeanFind;
 
-import com.airpremia.springbootstart.Discount.DiscountPolicy;
-import com.airpremia.springbootstart.Discount.RateDiscountPolicy;
-import com.airpremia.springbootstart.Discount.FixDiscountPolicy;
+import com.airpremia.springbootstart.discount.DiscountPolicy;
+import com.airpremia.springbootstart.discount.RateDiscountPolicy;
+import com.airpremia.springbootstart.discount.FixDiscountPolicy;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;

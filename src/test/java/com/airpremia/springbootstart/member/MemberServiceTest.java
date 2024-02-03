@@ -1,4 +1,4 @@
-package com.airpremia.springbootstart.Member;
+package com.airpremia.springbootstart.member;
 
 import com.airpremia.springbootstart.AppConfig;
 import org.assertj.core.api.Assertions;

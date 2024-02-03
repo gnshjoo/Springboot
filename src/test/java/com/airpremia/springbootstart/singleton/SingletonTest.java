@@ -1,7 +1,7 @@
 package com.airpremia.springbootstart.singleton;
 
 import com.airpremia.springbootstart.AppConfig;
-import com.airpremia.springbootstart.Member.MemberService;
+import com.airpremia.springbootstart.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

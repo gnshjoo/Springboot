@@ -1,10 +1,9 @@
-package com.airpremia.springbootstart.Order;
+package com.airpremia.springbootstart.order;
 
 import com.airpremia.springbootstart.AppConfig;
-import com.airpremia.springbootstart.Member.Grade;
-import com.airpremia.springbootstart.Member.Member;
-import com.airpremia.springbootstart.Member.MemberService;
-import com.airpremia.springbootstart.Member.MemberServiceImpl;
+import com.airpremia.springbootstart.member.Grade;
+import com.airpremia.springbootstart.member.Member;
+import com.airpremia.springbootstart.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

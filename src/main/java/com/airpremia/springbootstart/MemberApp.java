@@ -1,8 +1,8 @@
 package com.airpremia.springbootstart;
 
-import com.airpremia.springbootstart.Member.Grade;
-import com.airpremia.springbootstart.Member.Member;
-import com.airpremia.springbootstart.Member.MemberService;
+import com.airpremia.springbootstart.member.Grade;
+import com.airpremia.springbootstart.member.Member;
+import com.airpremia.springbootstart.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

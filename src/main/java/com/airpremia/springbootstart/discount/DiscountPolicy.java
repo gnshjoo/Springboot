@@ -1,6 +1,6 @@
-package com.airpremia.springbootstart.Discount;
+package com.airpremia.springbootstart.discount;
 
-import com.airpremia.springbootstart.Member.Member;
+import com.airpremia.springbootstart.member.Member;
 
 public interface DiscountPolicy {
 

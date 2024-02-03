@@ -2,10 +2,9 @@ package com.airpremia.springbootstart.BeanFind;
 
 
 import com.airpremia.springbootstart.AppConfig;
-import com.airpremia.springbootstart.Member.MemberService;
-import com.airpremia.springbootstart.Member.MemberServiceImpl;
+import com.airpremia.springbootstart.member.MemberService;
+import com.airpremia.springbootstart.member.MemberServiceImpl;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

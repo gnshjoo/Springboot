@@ -1,15 +1,15 @@
 package com.airpremia.springbootstart;
 
 
-import com.airpremia.springbootstart.Discount.DiscountPolicy;
+import com.airpremia.springbootstart.discount.DiscountPolicy;
 
-import com.airpremia.springbootstart.Discount.RateDiscountPolicy;
-import com.airpremia.springbootstart.Member.MemberRepository;
-import com.airpremia.springbootstart.Member.MemberService;
-import com.airpremia.springbootstart.Member.MemberServiceImpl;
-import com.airpremia.springbootstart.Member.MemoryMemberRepository;
-import com.airpremia.springbootstart.Order.OrderService;
-import com.airpremia.springbootstart.Order.OrderServiceImpl;
+import com.airpremia.springbootstart.discount.RateDiscountPolicy;
+import com.airpremia.springbootstart.member.MemberRepository;
+import com.airpremia.springbootstart.member.MemberService;
+import com.airpremia.springbootstart.member.MemberServiceImpl;
+import com.airpremia.springbootstart.member.MemoryMemberRepository;
+import com.airpremia.springbootstart.order.OrderService;
+import com.airpremia.springbootstart.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

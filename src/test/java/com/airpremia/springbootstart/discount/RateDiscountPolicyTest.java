@@ -1,7 +1,7 @@
-package com.airpremia.springbootstart.Discount;
+package com.airpremia.springbootstart.discount;
 
-import com.airpremia.springbootstart.Member.Grade;
-import com.airpremia.springbootstart.Member.Member;
+import com.airpremia.springbootstart.member.Grade;
+import com.airpremia.springbootstart.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

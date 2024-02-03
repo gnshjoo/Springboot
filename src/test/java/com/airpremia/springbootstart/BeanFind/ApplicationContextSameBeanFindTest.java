@@ -1,9 +1,7 @@
 package com.airpremia.springbootstart.BeanFind;
 
-import com.airpremia.springbootstart.AppConfig;
-import com.airpremia.springbootstart.Discount.DiscountPolicy;
-import com.airpremia.springbootstart.Member.MemberRepository;
-import com.airpremia.springbootstart.Member.MemoryMemberRepository;
+import com.airpremia.springbootstart.member.MemberRepository;
+import com.airpremia.springbootstart.member.MemoryMemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;

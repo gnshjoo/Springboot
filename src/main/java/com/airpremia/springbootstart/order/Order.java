@@ -1,4 +1,4 @@
-package com.airpremia.springbootstart.Order;
+package com.airpremia.springbootstart.order;
 
 public class Order {
 

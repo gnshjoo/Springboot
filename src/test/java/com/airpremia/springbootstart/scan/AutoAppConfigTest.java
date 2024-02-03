@@ -1,7 +1,7 @@
 package com.airpremia.springbootstart.scan;
 
 import com.airpremia.springbootstart.AutoAppConfig;
-import com.airpremia.springbootstart.Member.MemberService;
+import com.airpremia.springbootstart.member.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

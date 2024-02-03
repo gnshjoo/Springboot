@@ -1,9 +1,9 @@
 package com.airpremia.springbootstart.singleton;
 
 import com.airpremia.springbootstart.AppConfig;
-import com.airpremia.springbootstart.Member.MemberRepository;
-import com.airpremia.springbootstart.Member.MemberServiceImpl;
-import com.airpremia.springbootstart.Order.OrderServiceImpl;
+import com.airpremia.springbootstart.member.MemberRepository;
+import com.airpremia.springbootstart.member.MemberServiceImpl;
+import com.airpremia.springbootstart.order.OrderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

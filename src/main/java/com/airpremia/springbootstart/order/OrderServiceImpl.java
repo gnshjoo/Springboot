@@ -1,11 +1,8 @@
-package com.airpremia.springbootstart.Order;
+package com.airpremia.springbootstart.order;
 
-import com.airpremia.springbootstart.Discount.DiscountPolicy;
-import com.airpremia.springbootstart.Discount.FixDiscountPolicy;
-import com.airpremia.springbootstart.Discount.RateDiscountPolicy;
-import com.airpremia.springbootstart.Member.Member;
-import com.airpremia.springbootstart.Member.MemberRepository;
-import com.airpremia.springbootstart.Member.MemoryMemberRepository;
+import com.airpremia.springbootstart.discount.DiscountPolicy;
+import com.airpremia.springbootstart.member.Member;
+import com.airpremia.springbootstart.member.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
