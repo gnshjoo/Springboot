@@ -6,11 +6,15 @@ import com.airpremia.springbootstart.Discount.RateDiscountPolicy;
 import com.airpremia.springbootstart.Member.Member;
 import com.airpremia.springbootstart.Member.MemberRepository;
 import com.airpremia.springbootstart.Member.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService{
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy; // interface 에 의존하게 코드 변경
 
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;

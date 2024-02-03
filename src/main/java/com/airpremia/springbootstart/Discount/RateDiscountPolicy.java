@@ -2,7 +2,9 @@ package com.airpremia.springbootstart.Discount;
 
 import com.airpremia.springbootstart.Member.Grade;
 import com.airpremia.springbootstart.Member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10; // 10% 할인
